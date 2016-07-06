@@ -1,0 +1,5 @@
+.vscode
+/FrontEnd/local.properties
+build/
+/FrontEnd/.gradle
+/FrontEnd/.idea

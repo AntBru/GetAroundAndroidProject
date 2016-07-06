@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/registerTitle"
+            android:gravity="center"
+            android:paddingBottom="15dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:id="@+id/titleRegister"/>
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/titleRegister"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/updateFoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setPhotos"
+            android:textSize="16dip"
+            android:textColor="#0b84aa"
+            android:layout_alignBottom="@+id/profile_image"
+            android:layout_toEndOf="@+id/profile_image"
+            android:layout_marginBottom="38dp" />
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="centerCrop"
+            android:padding="10dp"
+            android:layout_above="@+id/nomeRegister"
+            android:layout_toStartOf="@+id/updateBackground" />
+
+        <TextView
+            android:id="@+id/updateBackground"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/setBackground"
+            android:textSize="16dip"
+            android:textColor="#0b84aa"
+            android:layout_alignBottom="@+id/background_image"
+            android:layout_marginBottom="38dp"
+            android:layout_alignParentEnd="true" />
+
+        <EditText
+            android:id="@+id/nomeRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/registerName"
+            android:padding="10dp"
+            android:layout_below="@+id/updateFoto"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/cognomeRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/registerSurname"
+            android:padding="10dp"
+            android:layout_below="@+id/nomeRegister"
+            />
+
+        <EditText
+            android:id="@+id/cittaRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/registerCity"
+            android:padding="10dp"
+            android:layout_below="@+id/cognomeRegister"
+            />
+
+        <EditText
+            android:id="@+id/emailRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/registerEmail"
+            android:padding="10dp"
+            android:inputType="textEmailAddress"
+            android:layout_below="@+id/cittaRegister"
+            />
+
+        <EditText
+            android:id="@+id/fraseRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/registerPhraseForPasswordRecovery"
+            android:padding="10dp"
+            android:layout_below="@+id/emailRegister"
+            />
+
+        <EditText
+            android:id="@+id/usernameRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/username"
+            android:padding="10dp"
+            android:layout_below="@+id/fraseRegister"
+            />
+
+        <EditText
+            android:id="@+id/passwordRegister"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:layout_below="@+id/usernameRegister"
+            />
+
+        <Button
+            android:id="@+id/confermaRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonRegisterOK"
+            android:layout_gravity="left"
+            android:layout_below="@+id/passwordRegister"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="50dp" />
+
+        <Button
+            android:id="@+id/annullaRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/buttonRegisterCancel"
+            android:layout_below="@+id/passwordRegister"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="62dp" />
+
+
+    </RelativeLayout>
+</ScrollView>

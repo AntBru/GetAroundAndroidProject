@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GetAround</string>
+    <string name="buttonLogin">Login</string>
+    <string name="buttonRegister">Registrati</string>
+    <string name="buttonTryService">Prova il servizio</string>
+    <string name="username">Nome Utente</string>
+    <string name="password">Password</string>
+    <string name="checkBoxShowPassword">Mostra password</string>
+    <string name="buttonGo">Accedi</string>
+    <string name="forgotPassword">Password dimenticata?</string>
+    <string name="registerTitle">REGISTRAZIONE UTENTE</string>
+    <string name="registerName">Nome</string>
+    <string name="registerSurname">Cognome</string>
+    <string name="registerCity">Città</string>
+    <string name="registerEmail">E-mail</string>
+    <string name="registerPhraseForPasswordRecovery">Frase per il recupero password</string>
+    <string name="buttonRegisterOK">Conferma</string>
+    <string name="buttonRegisterCancel">Annulla</string>
+    <string name="setPhotos">Imposta foto</string>
+    <string name="setBackground">Imposta sfondo</string>
+    <string name="success">Success!</string>
+    <string name="buttonLogout">Logout</string>
+</resources>
