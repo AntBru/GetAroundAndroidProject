@@ -3,3 +3,9 @@
 build/
 /FrontEnd/.gradle
 /FrontEnd/.idea
+FrontEnd/gradle.properties
+Vagrant
+Vagrantfile
+bootstrap.sh
+.vagrant/
+FrontEnd/app/proguard-rules.pro
